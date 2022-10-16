@@ -10,6 +10,7 @@
 .body{
     background-color:#aaaaaa45;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 /*---------------*\
  Header Styles
@@ -98,6 +99,7 @@ header h2{
 \*-----------------*/
 .collection-area{
     width: 1100px;
+    height: 1662px;
 }
 .collections{
     display: grid;
@@ -106,6 +108,7 @@ header h2{
     grid-column-gap: 5px;
     margin-left: 150px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .collection{
     width: 280px;
@@ -121,9 +124,8 @@ header h2{
     margin-top: 100px;
 }
 .collection-container h2{
-    position: relative;
-    left: 470px;
-    font-weight: 600;
+    margin-left: 505px;
+    font-weight: 700px;
     font-size: 28px;
    
 }
@@ -140,11 +142,90 @@ header h2{
     color: orange;
 }
 .collection-area a{
-    position: relative;
-    top: 30px;
-    left: 990px;
+    margin-left: 1000px;
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
     color: #E02C6DDE;
+}
+/*-----------------*\
+ Last Section
+\*------------------*/
+.last-section{
+    margin-top: 200px;
+    margin-left: 165px;
+}
+.feature{
+    display: flex;
+    width: 1054px;
+    height: 270px;
+}
+.featured-details{
+    margin-left: 20px;
+}
+.featured-details h2{
+    font-weight: 700;
+    font-size: 38px;
+}
+.featured-details p{
+    margin-left: 50px;
+    width: 501px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.featured-details a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #E02C6D;
+    padding: 8px 12px;
+}
+.featured-details i{
+    position: ;
+    left: 5px;
+    top: 2px;
+}
+/*---------------*\
+ Footer Area
+\*----------------*/
+footer{
+    background-color: black;
+    margin-top: 100px;
+    height: 225px;
+    position: relative;
+}
+.influencer-product{
+    width: 262px;
+    height: 139px;
+    margin-left: 550px;
+    position: absolute;
+    top: 20px;
+}
+.influencer-product h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+}
+.influencer-product p{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.social-links ul{
+    display: flex;
+    margin-left: 25px;
+}
+.social-links li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.social-links a{
+    text-decoration: none;
+    color: white;
+}
+#center-text{
+    text-align: center;
 }
