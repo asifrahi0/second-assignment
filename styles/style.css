@@ -1,0 +1,89 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+/*------------*\
+ Utilities 
+*\------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------*\
+ Header Styles
+\*-------------- */
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+header h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar li{
+    list-style-type: none;
+    margin-right: 34px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+/*----------------*\
+ First Section
+\*----------------*/
+.first-section{
+    display: flex;
+    margin-top: 80px;
+}
+.influencer-details{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.influencer-details h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.influencer-details p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.influencer-image{
+    margin-left: 130px;
+    background-image: url('/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position-y: -20px;
+}
+.influencer-image img{
+    width: 440px;
+    height: 414px;
+}
+.influencer-details .button{
+    text-decoration: none;
+    color:white;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.influencer-details .button i{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/*-------------*\
+ Logo Area
+\*-------------*/
+.logo-area{
+    margin-top: 100px;
+    width: 1110px;
+    height: 110px;
+    margin-left: 85px;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 20px 0px;
+}
