@@ -2,7 +2,13 @@
 /*------------*\
  Utilities 
 *\------------*/
-body{
+.tag-line{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+.body{
+    background-color:#aaaaaa45;
     font-family: 'Poppins', sans-serif;
 }
 /*---------------*\
@@ -69,7 +75,7 @@ header h2{
     font-weight: 700;
     font-size: 16px;
 }
-.influencer-details .button i{
+.influencer-details .button .fa-arrow-right{
     margin-left: 10px;
     margin-top: 20px;
 }
@@ -86,4 +92,59 @@ header h2{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     padding: 20px 0px;
+}
+/*-----------------*\
+ Collection Area
+\*-----------------*/
+.collection-area{
+    width: 1100px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 5px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.collection{
+    width: 280px;
+    height: 476px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
+.collection img{
+    width: 100%;
+}
+.collection-area{
+    margin-top: 100px;
+}
+.collection-container h2{
+    position: relative;
+    left: 470px;
+    font-weight: 600;
+    font-size: 28px;
+   
+}
+.collection-details .ratings{
+    display: flex;
+}
+.collection-details .ratings ul{
+    display: flex;
+    margin-right: 10px;
+    padding: 0px;
+}
+.collection-details .ratings li{
+    list-style-type: none;
+    color: orange;
+}
+.collection-area a{
+    position: relative;
+    top: 30px;
+    left: 990px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #E02C6DDE;
 }
